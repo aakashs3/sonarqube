@@ -2,7 +2,7 @@
 sonarqube installtion guide
 
 # Install and configure Database
-apt install openjdk-17-jdk -y
+apt install openjdk-21-jdk -y
 apt install postgresql -y
 systemctl start postgresql
 sudo -u postgres psql
@@ -22,9 +22,9 @@ ulimit -u 8192
 
 
 # Install and Configure Sonarqube
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.5.0.107428.zip
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-26.9.0.129388.zip
 apt install unzip -y
-unzip sonarqube-25.5.0.107428.zip
+unzip sonarqube-26.9.0.129388.zip
 
 mv sonarqube-25.5.0.107428 /opt/sonar
 cd /opt/sonar
