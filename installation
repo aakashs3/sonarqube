@@ -26,7 +26,7 @@ wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-26.9.0.12
 apt install unzip -y
 unzip sonarqube-26.9.0.129388.zip
 
-mv sonarqube-25.5.0.107428 /opt/sonar
+mv sonarqube-26.9.0.129388 /opt/sonar
 cd /opt/sonar
 
 vim conf/sonar.properties
